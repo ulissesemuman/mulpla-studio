@@ -16,8 +16,7 @@ if (isDist) {
 
 // Paths
 export const buildUUID = "_gbsbuild";
-//export const enginesRoot = normalize(`${rootDir}/appData/engine`);  //stygian
-export const enginesRoot = normalize(`${rootDir}/plugins/gb/engine`);  //stygian
+export const enginesRoot = normalize(`${rootDir}/appData/engine`);
 export const defaultEngineRoot = normalize(`${enginesRoot}/gbvm`);
 export const defaultEngineMetaPath = normalize(`${enginesRoot}/engine.json`);
 export const buildToolsRoot = normalize(`${rootDir}/buildTools`);
